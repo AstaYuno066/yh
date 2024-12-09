@@ -2,8 +2,8 @@
 session_start();
 require_once('config.php');
 defined('9A466B642B0D29A62244DFB3521AF1E7A1333C9C111235243BE8AD0452A1666D3386D35C8ABE350505387D1164FF997C0238742') or exit();
-$captcha_site_key = "6LcW4VcqAAAAACoHlFN-3C0UHZ6mocfYbAMDN0AA";
-$captcha_secret_key = "6LcW4VcqAAAAABMOtalzofZ8MEqXCUrJeeUXuGwf";
+$captcha_site_key = "6LfpwZYqAAAAAKWfbzG28bGEx4mXtO080RYF24ci";
+$captcha_secret_key = "6LfpwZYqAAAAAKvIhgG1wqVqSOBqupPBAEeyyTVp";
 
 if(isset($_POST['send']) && ($_SESSION['visitor_ip'] == show_visitor_ip())) {
     $url = 'https://www.google.com/recaptcha/api/siteverify?secret='.$captcha_secret_key.'&response='.$_POST['g-recaptcha-response'];
